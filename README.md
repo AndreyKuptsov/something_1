@@ -1,16 +1,41 @@
-# flutter_application_1
+# То самое приложение
 
-A new Flutter project.
+Это шаблон приложения с двумя кнопками, ведущими на внешние ссылки (не забудьте вставить свои ссылки вместо 'site1' и 'site2'). Оно использует Flutter для кросс-платформенной разработки и пакет `url_launcher` для открытия веб-ссылок.
 
-## Getting Started
+## Функции
 
-This project is a starting point for a Flutter application.
+- Открывает ваши ссылки в браузере при нажатии пользователем на кнопку
 
-A few resources to get you started if this is your first Flutter project:
+## Начало работы
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Чтобы начать работу с этим приложением, клонируйте репозиторий и выполните необходимые шаги для запуска.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Предварительные требования
+
+Для работы с проектом у вас должен быть установлен Flutter. Если у вас его нет, следуйте инструкциям на [официальном сайте Flutter](https://flutter.dev/docs/get-started/install).
+
+### Установка
+
+Склонируйте репозиторий и установите зависимости:
+
+```sh
+git clone https://example.com/your_project.git
+cd your_project
+flutter pub get
+```
+
+Запуск приложения
+Запустите приложение на эмуляторе или физическом устройстве:
+```sh
+
+flutter run
+```
+
+Сборка приложения
+Чтобы собрать приложение для релиза:
+```sh
+
+flutter build apk --release
+```
+>dart
+>flutter
