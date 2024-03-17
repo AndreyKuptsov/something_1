@@ -19,7 +19,7 @@
 Склонируйте репозиторий и установите зависимости:
 
 ```sh
-git clone https://example.com/your_project.git
+git clone 
 cd your_project
 flutter pub get
 ```
